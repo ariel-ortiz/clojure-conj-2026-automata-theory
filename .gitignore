@@ -1,0 +1,5 @@
+.clj-kondo/
+.idea/
+.cpcache/
+clojure-conj-2026-automata-theory.iml
+.nrepl-port
