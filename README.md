@@ -8,7 +8,7 @@ Teaching the theory of computation often suffers from a disconnect between mathe
 
 ## Sample Problem: Alternating Binary Language
 
-Let $L$ be a language over the alphabet $\Sigma=\{0, 1\}$. For every string $w \in L$, $w$ must satisfy the following conditions:
+Let $L$ be a language over the alphabet $\Sigma= \lbrace 0, 1 \rbrace$. For every string $w \in L$, $w$ must satisfy the following conditions:
 
 * The first symbol must be $1$.
 * The last symbol must be $1$.
