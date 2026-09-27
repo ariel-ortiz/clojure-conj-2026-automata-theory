@@ -25,13 +25,40 @@ Any string that does not satisfy the above conditions does not belong to $L$.
 
 Provide solutions to recognize the language $L$ using each of the following formal models:
 
-* A Deterministic Finite Automaton (DFA)
-* A Regular Expression (regex)
-* A Context-Free Grammar (CFG)
-* A Turing Machine (TM)
+1. A Deterministic Finite Automaton (DFA)
+2. A Regular Expression (regex)
+3. A Context-Free Grammar (CFG)
+4. A Turing Machine (TM)
 
 Additionally, you must include the implementation of each solution along with **Clojure code** to programmatically verify that your models correctly accept valid strings and reject invalid ones, using the following approaches:
 
 * For the regex, you must use Clojure’s native regular expressions.
 * For the CFG, you must use the `instaparse` library.
 * For the DFA and TM, you must build software simulators in Clojure.
+
+### Solutions
+
+#### 1. Deterministic Finite Automaton
+
+![](img/dfa.webp)
+
+#### 2. Regular Expression
+
+$$
+1(01)*
+$$
+
+#### 3. Context-Free Grammar
+
+$$
+\begin{matrix}
+A & \rightarrow & \texttt{1}\\
+A & \rightarrow & \texttt{10} A \\
+\end{matrix}
+$$
+
+#### 4. Turing Machine
+
+![](img/tm.webp)
+
+
