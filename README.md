@@ -52,6 +52,8 @@ $$
 \texttt{1}(\texttt{01})*
 $$
 
+[Clojure code](src/clojure_conj_2026/regex.clj) with this solution’s implementation.
+
 #### 3. Context-Free Grammar
 
 $$
