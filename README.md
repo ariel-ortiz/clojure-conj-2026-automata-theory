@@ -45,7 +45,7 @@ Additionally, you must include the implementation of each solution along with **
 #### 2. Regular Expression
 
 $$
-1(01)*
+\texttt{1}(\texttt{01})*
 $$
 
 #### 3. Context-Free Grammar
