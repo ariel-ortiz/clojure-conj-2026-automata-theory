@@ -40,7 +40,9 @@ Additionally, you must include the implementation of each solution along with **
 
 #### 1. Deterministic Finite Automaton
 
-![](img/dfa.webp)
+<p align="center">
+  <img alt="" src="img/dfa.webp">
+</p>
 
 #### 2. Regular Expression
 
@@ -59,6 +61,8 @@ $$
 
 #### 4. Turing Machine
 
-![](img/tm.webp)
+<p align="center">
+  <img alt="" src="img/tm.webp">
+</p>
 
 
