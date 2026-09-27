@@ -18,5 +18,5 @@ Let $L$ be a language over the alphabet $\Sigma= \lbrace 0, 1 \rbrace$. For ever
 Any string that does not satisfy the above conditions does not belong to $L$.
 
 ### Examples:
-* **Belong to $L$:** $1$, $101$, $101010101$
-* **Do not belong to $L$:** $\varepsilon$, $0$, $01$, $1010$, $1001$, $101100101$
+* *Belong to* $L$: $1$, $101$, $101010101$
+* *Do not belong to* $L$: $\varepsilon$ (empty string), $0$, $01$, $1010$, $1001$, $101100101$
