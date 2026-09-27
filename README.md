@@ -44,6 +44,8 @@ Additionally, you must include the implementation of each solution along with **
   <img alt="" src="img/dfa.webp">
 </p>
 
+[Clojure code](src/clojure_conj_2026/dfa.clj) with this solution’s implementation.
+
 #### 2. Regular Expression
 
 $$
