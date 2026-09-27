@@ -44,7 +44,7 @@ Additionally, you must include the implementation of each solution along with **
   <img alt="" src="img/dfa.webp">
 </p>
 
-[Clojure code](src/clojure_conj_2026/dfa.clj) with this solution’s implementation.
+[Clojure code](src/clojure_conj_2026/dfa.clj).
 
 #### 2. Regular Expression
 
@@ -52,7 +52,7 @@ $$
 \texttt{1}(\texttt{01})*
 $$
 
-[Clojure code](src/clojure_conj_2026/regex.clj) with this solution’s implementation.
+[Clojure code](src/clojure_conj_2026/regex.clj).
 
 #### 3. Context-Free Grammar
 
@@ -63,12 +63,14 @@ A & \rightarrow & \texttt{10} A \\
 \end{matrix}
 $$
 
-[Clojure code](src/clojure_conj_2026/cfg.clj) with this solution’s implementation.
+[Clojure code](src/clojure_conj_2026/cfg.clj).
 
 #### 4. Turing Machine
 
 <p align="center">
   <img alt="" src="img/tm.webp">
 </p>
+
+[Clojure code](src/clojure_conj_2026/tm.clj).
 
 
