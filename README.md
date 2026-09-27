@@ -20,3 +20,18 @@ Any string that does not satisfy the above conditions does not belong to $L$.
 ### Examples:
 * *Belong to* $L$: $1$, $101$, $101010101$
 * *Do not belong to* $L$: $\varepsilon$ (empty string), $0$, $01$, $1010$, $1001$, $101100101$
+
+### Task
+
+Provide solutions to recognize the language $L$ using each of the following formal models:
+
+* A Deterministic Finite Automaton (DFA)
+* A Regular Expression (regex)
+* A Context-Free Grammar (CFG)
+* A Turing Machine (TM)
+
+Additionally, you must include the implementation of each solution along with **Clojure code** to programmatically verify that your models correctly accept valid strings and reject invalid ones, using the following approaches:
+
+* For the regex, you must use Clojure’s native regular expressions.
+* For the CFG, you must use the `instaparse` library.
+* For the DFA and TM, you must build software simulators in Clojure.
