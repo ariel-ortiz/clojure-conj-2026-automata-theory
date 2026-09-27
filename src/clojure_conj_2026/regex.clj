@@ -8,7 +8,7 @@
 
 (def solution-regex #"1(01)*")
 
-(deftest test-dfa
+(deftest test-regex
   (is (re-matches solution-regex "1"))
   (is (re-matches solution-regex "101"))
   (is (re-matches solution-regex "101010101"))
