@@ -32,7 +32,7 @@ Provide solutions to recognize the language $L$ using each of the following form
 
 Additionally, you must include the implementation of each solution along with **Clojure code** to programmatically verify that your models correctly accept valid strings and reject invalid ones, using the following approaches:
 
-* For the regex, you must use Clojure’s native regular expressions.
+* For the regex, you must use Clojure’s native [regular expressions](https://clojuredocs.org/quickref#regular-expressions).
 * For the CFG, you must use the [instaparse](https://github.com/Engelberg/instaparse) library.
 * For the DFA and TM, you must build software simulators in Clojure.
 
