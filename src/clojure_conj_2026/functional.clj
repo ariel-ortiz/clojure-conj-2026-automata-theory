@@ -10,8 +10,7 @@
 (defn alternating-binary?
   [input]
   (and (= \1 (first input) (last input))
-       (not-any? (fn [[a b]] (= a b))
-                 (partition 2 1 input))))
+       (apply = [\1 \0] (partition 2 input))))
 
 (deftest test-alternating-binary?
   (is (alternating-binary? "1"))
