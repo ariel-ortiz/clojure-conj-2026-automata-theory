@@ -49,7 +49,7 @@
   (loop [tape (make-tape input)
          current-state initial-state]
     (if (contains? accept-states current-state)
-      (str tape)
+      tape
       (if-let [[write-symbol direction new-state]
                ((transitions current-state) (.head tape))]
         (recur (shift-head (write-tape tape write-symbol) direction)
