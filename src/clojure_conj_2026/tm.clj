@@ -51,7 +51,7 @@
     (if (contains? accept-states current-state)
       tape
       (if-let [[write-symbol direction new-state]
-               ((transitions current-state) (.head tape))]
+               (get-in transitions [current-state (.head tape)])]
         (recur (shift-head (write-tape tape write-symbol) direction)
                new-state)
         nil))))
