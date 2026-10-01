@@ -5,8 +5,12 @@
 
 (defn fn-accepts?
   [input]
-  (and (= \1 (first input) (last input))
-       (apply = [\1 \0] (partition 2 input))))
+  (and (= \1
+          (first input)
+          (last input))
+       (apply =
+              [\1 \0]
+              (partition 2 input))))
 
 (defrecord DFA [initial-state
                 accept-states
