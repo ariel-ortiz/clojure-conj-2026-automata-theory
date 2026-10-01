@@ -1,6 +1,6 @@
 # Teaching Automata Theory with Clojure
 
-This code was developed for the [Clojure/conj 2026](http://2026.clojure-conj.org/) presentation titled **“Teaching Automata Theory with Clojure”** which took place on October 2, 2026, at Charlotte, North Carolina. You can also check the presentation’s Google slides and YouTube video.
+This code was developed for the [Clojure/conj 2026](http://2026.clojure-conj.org/) presentation titled **“Teaching Automata Theory with Clojure”** which took place on October 2, 2026, at Charlotte, North Carolina. You can also check the presentation’s [Google slides](https://docs.google.com/presentation/d/e/2PACX-1vQQk5MA_857bfHbzlMSgASi7_D5Vr4L-SJJkaxzGTf9D8QstyitCHS2f7PAjHee87ja8o-EIs_jjrqU/pub?start=false&loop=false&delayms=3000) and YouTube video.
 
 ## Summary
 
