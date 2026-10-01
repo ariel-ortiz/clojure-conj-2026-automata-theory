@@ -13,12 +13,13 @@
 
 (defn accepts?
   [{:keys [initial-state accept-states transitions]} input]
-  (loop [input          input
-         current-state  initial-state]
-    (if (empty? input)
-      (contains? accept-states current-state)
-      (recur (rest input)
-             ((transitions current-state) (first input))))))
+  (loop [input         input
+         current-state initial-state]
+    (cond
+      (nil? current-state) false
+      (empty? input) (contains? accept-states current-state)
+      :else (recur (rest input)
+                   (get-in transitions [current-state (first input)])))))
 
 (def solution-dfa (->DFA :q0
                          #{:q1}
