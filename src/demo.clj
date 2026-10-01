@@ -1,4 +1,10 @@
 (ns demo
+  "The Clojure/conj presentation demo code.
+
+   A collection of automata simulators and parsers in Clojure,
+   including Deterministic Finite Automata (DFA), Turing Machines (TM),
+   Context-Free Grammars (CFG), and Regular Expressions. Features also
+   a functional version to demonstrate an idiomatic Clojure solution."
   (:require [instaparse.core :refer [parser]])
   (:import (instaparse.gll Failure))
   (:import (java.io Writer)))
@@ -43,6 +49,7 @@
 
 (defn fails? [r] (instance? Failure r))
 (defn cfg-accepts? [r input] (not (fails? (r input))))
+
 (def cfg1 (parser "A = '1' | '10' A"))
 
 (defrecord TM [initial-state accept-states transitions])
