@@ -6,7 +6,7 @@
    built-in pattern matching capabilities."
   (:require [clojure.test :refer [deftest is run-tests]]))
 
-(def solution-regex #"1(01)*")
+(def solution-regex #"(10)*1")
 
 (deftest test-regex
   (is (re-matches solution-regex "1"))

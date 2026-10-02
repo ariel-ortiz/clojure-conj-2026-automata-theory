@@ -49,7 +49,7 @@ Additionally, you must include the implementation of each solution along with **
 #### 2. Regular Expression
 
 $$
-\texttt{1}(\texttt{01})*
+(\texttt{10})*\texttt{1}
 $$
 
 [Clojure code](src/clojure_conj_2026/regex.clj).

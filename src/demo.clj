@@ -45,7 +45,7 @@
   [regex input]
   (boolean (re-matches regex input)))
 
-(def regex1 #"1(01)*")
+(def regex1 #"(10)*1")
 
 (defn fails? [r] (instance? Failure r))
 (defn cfg-accepts? [r input] (not (fails? (r input))))
